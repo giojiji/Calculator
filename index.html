@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>calculator</title>
+</head>
+
+<body>
+  <header class="header">
+    <div id="main-div">
+      <div id="little-div">
+        <div class="myDIvV" onclick="myFunction()">
+        </div>
+      </div>
+    </div>
+    <nav id="screen"></nav>
+    <div onclick="getvalue(event)">
+      <input type"text" value="1" disabled>
+      <input type"text" value="2" disabled>
+      <input type"text" value="3" disabled>
+      <input type"text" value="+" disabled>
+      <input type"text" value="4" disabled>
+      <input type"text" value="5" disabled>
+      <input type"text" value="6" disabled>
+      <input type"text" value="-" disabled>
+      <input type"text" value="7" disabled>
+      <input type"text" value="8" disabled>
+      <input type"text" value="9" disabled>
+      <input type"text" value="*" disabled>
+      <input type"text" value="0" disabled>
+      <input type"text" value="00" disabled>
+      <input type"text" value="." disabled>
+      <input type"text" value="/" disabled>
+      <button onclick="del()">Del</button>
+          <button onclick="root()">√</button>
+          <button onclick="reset()">C</button>
+          <button onclick="calculate()">=</button>
+    </div>
+    <h1 class="calc">calculator</h1>
+  </header>
+</body>
+<script src="app.js"></script>
+
+</html>
